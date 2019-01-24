@@ -11,7 +11,9 @@
   "author": "tristan.ramirez <tristan.rami@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-hapi": "^1.3.6",
     "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
     "hapi": "^17.8.1",
     "mongoose": "^5.4.4"
   },
