@@ -1,0 +1,22 @@
+{
+  "name": "modern-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "format": "prettier --write \"**/*.{js,json,scss,md}\""
+  },
+  "keywords": [],
+  "author": "tristan.ramirez <tristan.rami@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "hapi": "^17.8.1",
+    "mongoose": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.1"
+  }
+}
